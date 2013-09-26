@@ -17,7 +17,7 @@ module.exports = function storytimeisland_texthighlighter(html, timings){
   $elem.addClass('text_highlighter');
   $elem.show();
   $elem.css({
-    position:'absolute',
+    position:'relative',
     left:'0px',
     top:'0px',
     width:'100%',
